@@ -1,5 +1,5 @@
 const express = require('express');
-cost app = express(); //app is a backend application
+const app = express(); //app is a backend application
 
 app.get("/",(req,res)=>{
     res.send("Welcome to my Seth's backend application");
